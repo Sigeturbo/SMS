@@ -5,7 +5,8 @@
   "keywords": [
     "sms",
     "texting",
-    "message"
+    "message",
+    "laravel"
   ],
   "homepage": "https://github.com/sigeturbo/SMS",
   "license": "MIT",
@@ -17,5 +18,11 @@
       "role": "Developer"
     }
   ],
-  "require": {}
+  "minimum-stability": "stable",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "SigeTurbo\\SMS\\": "src/"
+    }
+  }
 }
