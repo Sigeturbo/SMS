@@ -1,0 +1,21 @@
+{
+  "name": "sigeturbo/sms",
+  "type": "library",
+  "description": "SigeTurbo SMS",
+  "keywords": [
+    "sms",
+    "texting",
+    "message"
+  ],
+  "homepage": "https://github.com/sigeturbo/SMS",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "José Jaraba",
+      "email": "webadm@thenewschool.edu.co",
+      "homepage": "https://sigeturbo.thenewschool.edu.co",
+      "role": "Developer"
+    }
+  ],
+  "require": {}
+}
