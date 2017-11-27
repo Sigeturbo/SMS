@@ -27,7 +27,7 @@ class SMSServiceProvider extends ServiceProvider
     {
         //Config
         $this->mergeConfigFrom( __DIR__.'/Config/sms.php', 'sms');
-        $this->app["sms"] = $this->app->share(function ($app) {
+        $this->app["sms"] = $this->app->singleton('sms',function ($app) {
             return new SMS;
         });
     }
